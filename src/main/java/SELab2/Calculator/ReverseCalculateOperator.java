@@ -1,10 +1,10 @@
 package SELab2.Calculator;
 
-import SELab2.Calculator.Abstractions.ICalculator;
+import SELab2.Calculator.Abstractions.ICalculateOperator;
 
-public class ReverseCalculator implements ICalculator {
+public class ReverseCalculateOperator implements ICalculateOperator {
 
-    public ReverseCalculator(){
+    public ReverseCalculateOperator(){
     }
 
 

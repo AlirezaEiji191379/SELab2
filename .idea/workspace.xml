@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdb534d1-2bb2-42a7-8660-9f5b9fc9a6e2" name="Changes" comment="fix some bugs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SELab2/Calculator/SqrtCalculateOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BDD/SqrtScenario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/sqrt.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SELab2/Calculator/Abstractions/ICalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SELab2/Calculator/Abstractions/ICalculateOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SELab2/Calculator/ReverseCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SELab2/Calculator/ReverseCalculateOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BDD/ReverseOutline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/ReverseOutline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BDD/ReverseScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/ReverseScenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/rvs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/rvs.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/rvsOutline.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/rvsOutline.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Gherkin feature file" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,6 +42,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -74,7 +85,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: integer reversing in outline">
+  <component name="RunManager" selected="Cucumber Java.Scenario: sqrt of an integer">
     <configuration name="Feature: rvsOutline" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/rvsOutline.feature" />
@@ -83,6 +94,25 @@
       <module name="BDD" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: rvsOutline" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: sqrt" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/sqrt.feature" />
+      <option name="GLUE" value="BDD" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="BDD" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: sqrt" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -114,47 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: integer reversing in outline -  - Example n°5" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/rvsOutline.feature:15" />
-      <option name="GLUE" value="BDD" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDD" />
-      <option name="NAME_FILTER" value="^integer reversing in outline$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^integer reversing in outline$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: integer reversing in outline -  - Example n°5" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: integer reversing in outline" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/rvsOutline.feature" />
-      <option name="GLUE" value="BDD" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDD" />
-      <option name="NAME_FILTER" value="^integer reversing in outline$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^integer reversing in outline$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: integer reversing in outline" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: reverse an integer (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: reverse an integer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/rvs.feature" />
       <option name="GLUE" value="BDD" />
@@ -174,20 +164,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: sqrt of an integer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/sqrt.feature" />
+      <option name="GLUE" value="BDD" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="BDD" />
+      <option name="NAME_FILTER" value="^sqrt of an integer$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^sqrt of an integer$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: sqrt of an integer" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: rvsOutline" />
-      <item itemvalue="Cucumber Java.Scenario: integer reversing in outline" />
+      <item itemvalue="Cucumber Java.Feature: sqrt" />
       <item itemvalue="Cucumber Java.Scenario: integer reversing in outline -  - Example n°1" />
-      <item itemvalue="Cucumber Java.Scenario: integer reversing in outline -  - Example n°5" />
-      <item itemvalue="Cucumber Java.Scenario: reverse an integer (1)" />
+      <item itemvalue="Cucumber Java.Scenario: reverse an integer" />
+      <item itemvalue="Cucumber Java.Scenario: sqrt of an integer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: integer reversing in outline" />
-        <item itemvalue="Cucumber Java.Scenario: integer reversing in outline -  - Example n°5" />
-        <item itemvalue="Cucumber Java.Feature: rvsOutline" />
-        <item itemvalue="Cucumber Java.Scenario: reverse an integer (1)" />
+        <item itemvalue="Cucumber Java.Scenario: sqrt of an integer" />
+        <item itemvalue="Cucumber Java.Scenario: reverse an integer" />
         <item itemvalue="Cucumber Java.Scenario: integer reversing in outline -  - Example n°1" />
+        <item itemvalue="Cucumber Java.Feature: rvsOutline" />
+        <item itemvalue="Cucumber Java.Feature: sqrt" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680808179132</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix some bugs">
+      <created>1680809643526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680809643526</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -3,7 +3,7 @@ Feature: outline Scenario for reversing integer
 
   Scenario Outline: integer reversing in outline
     Given input as <number>
-    When I Call Calculate in ReverseCalculator
+    When I Call Calculate in ReverseCalculateOperator
     Then I want <result>
 
     Examples:
