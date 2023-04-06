@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdb534d1-2bb2-42a7-8660-9f5b9fc9a6e2" name="Changes" comment="Add junit and cucumber dependencies">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SELab2/Calculator/Abstractions/ICalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SELab2/Calculator/ReverseCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BDD/ReverseScenario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BDDRunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/rvs.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BDD/ReverseScenarioOutline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BDD/ReverseScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/ReverseScenario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -184,6 +182,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add junit and cucumber dependencies" />

@@ -10,14 +10,14 @@ import org.junit.Assert;
 
 public class ReverseScenario {
 
-    private ICalculator calculator;
+    private ICalculator _calculator;
 
     private int number;
     private double result;
 
     @Before
     public void before(){
-        calculator = new ReverseCalculator();
+        _calculator = new ReverseCalculator();
     }
 
     @Given("Input as {int}")
@@ -27,7 +27,7 @@ public class ReverseScenario {
 
     @When("I Call Calulate from ReverseCalculator")
     public void iCallCalulateFromReverseCalculator() {
-        result = calculator.Calculate(number);
+        result = _calculator.Calculate(number);
     }
 
 
