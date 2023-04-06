@@ -22,8 +22,12 @@ public class ReverseOutline {
 
     @Given("input as {}")
     public void inputAs(String arg0) {
-        int inputNum = Integer.parseInt(arg0);
-        number = inputNum;
+        number = Integer.parseInt(arg0);
+    }
+
+    @When("I Call Calculate in ReverseCalculator")
+    public void iCallCalculateInReverseCalculator() {
+        result = _calculator.Calculate(number);
     }
 
     @Then("I want {}")
@@ -31,4 +35,6 @@ public class ReverseOutline {
         double expected = Double.parseDouble(arg0);
         Assert.assertEquals(expected,result,2);
     }
+
+
 }

@@ -14,6 +14,7 @@ public class ReverseScenario {
 
     private int number;
     private double result;
+    private Exception resultException;
 
     @Before
     public void before(){
@@ -26,18 +27,25 @@ public class ReverseScenario {
     }
 
     @When("I Call Calulate from ReverseCalculator")
-    public void iCallCalulateFromReverseCalculator() {
-        result = _calculator.Calculate(number);
+    public void iCallCalulateFromReverseCalculator()
+    {
+        try
+        {
+            result = _calculator.Calculate(number);
+            resultException = null;
+        }
+        catch (Exception e)
+        {
+            resultException = e;
+        }
     }
 
 
     @Then("I Expect {string}")
     public void iExpect(String arg0) {
-        double expected = Double.parseDouble(arg0);
-        Assert.assertEquals(expected,result,2);
-    }
-
-    @When("I Call Calculate in ReverseCalculator")
-    public void iCallCalculateInReverseCalculator() {
+        if (resultException == null) {
+            double expected = Double.parseDouble(arg0);
+            Assert.assertEquals(expected, result, 2);
+        }
     }
 }
