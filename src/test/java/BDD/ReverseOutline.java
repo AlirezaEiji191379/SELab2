@@ -8,7 +8,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class ReverseScenario {
+public class ReverseOutline {
 
     private ICalculator _calculator;
 
@@ -20,24 +20,15 @@ public class ReverseScenario {
         _calculator = new ReverseCalculator();
     }
 
-    @Given("Input as {int}")
-    public void inputAs(int arg0) {
-        number = arg0;
+    @Given("input as {}")
+    public void inputAs(String arg0) {
+        int inputNum = Integer.parseInt(arg0);
+        number = inputNum;
     }
 
-    @When("I Call Calulate from ReverseCalculator")
-    public void iCallCalulateFromReverseCalculator() {
-        result = _calculator.Calculate(number);
-    }
-
-
-    @Then("I Expect {string}")
-    public void iExpect(String arg0) {
+    @Then("I want {}")
+    public void iWant(String arg0) {
         double expected = Double.parseDouble(arg0);
         Assert.assertEquals(expected,result,2);
-    }
-
-    @When("I Call Calculate in ReverseCalculator")
-    public void iCallCalculateInReverseCalculator() {
     }
 }
