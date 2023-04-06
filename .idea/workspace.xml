@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdb534d1-2bb2-42a7-8660-9f5b9fc9a6e2" name="Changes" comment="fix some bugs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SELab2/Calculator/SqrtCalculateOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BDD/SqrtScenario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/sqrt.feature" afterDir="false" />
+    <list default="true" id="fdb534d1-2bb2-42a7-8660-9f5b9fc9a6e2" name="Changes" comment="fix some bugs and Add Sqrt Scenario">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BDD/SqrtOutline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/sqrtOutline.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SELab2/Calculator/Abstractions/ICalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SELab2/Calculator/Abstractions/ICalculateOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SELab2/Calculator/ReverseCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SELab2/Calculator/ReverseCalculateOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BDD/ReverseOutline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/ReverseOutline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BDD/ReverseScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/ReverseScenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/rvs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/rvs.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/rvsOutline.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/rvsOutline.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +74,8 @@
 }</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean" />
       <command value="mvn test" />
+      <command value="mvn clean" />
     </option>
   </component>
   <component name="RunManager" selected="Cucumber Java.Scenario: sqrt of an integer">
@@ -242,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680809643526</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix some bugs and Add Sqrt Scenario">
+      <created>1680810911254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680810911254</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +264,8 @@
     <MESSAGE value="small change in scenario" />
     <MESSAGE value="Add outline Scenario for reverse" />
     <MESSAGE value="fix some bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix some bugs" />
+    <MESSAGE value="fix some bugs and Add Sqrt Scenario" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix some bugs and Add Sqrt Scenario" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
