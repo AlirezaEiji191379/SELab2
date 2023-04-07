@@ -83,7 +83,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Cucumber Java.Feature: CalculatorScenarioOutline">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="BDD" />
@@ -91,14 +91,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: rvsOutline" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: CalculatorScenarioOutline" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/rvsOutline.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CalculatorScenarioOutline.feature" />
       <option name="GLUE" value="BDD" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDD" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: rvsOutline" />
+      <option name="SUGGESTED_NAME" value="Feature: CalculatorScenarioOutline" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -172,18 +172,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Cucumber Java.Feature: rvsOutline" />
+      <item itemvalue="Cucumber Java.Feature: CalculatorScenarioOutline" />
       <item itemvalue="Cucumber Java.Scenario: integer reversing in outline -  - Example n°1" />
       <item itemvalue="Cucumber Java.Scenario: reverse an integer" />
       <item itemvalue="Cucumber Java.Scenario: sqrt of an integer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: CalculatorScenarioOutline" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Cucumber Java.Scenario: sqrt of an integer" />
         <item itemvalue="Cucumber Java.Scenario: reverse an integer" />
         <item itemvalue="Cucumber Java.Scenario: integer reversing in outline -  - Example n°1" />
-        <item itemvalue="Cucumber Java.Feature: rvsOutline" />
       </list>
     </recent_temporary>
   </component>
