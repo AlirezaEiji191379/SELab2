@@ -1,4 +1,4 @@
-package SELab2.Calculator;
+package SELab2.Calculator.CalculatorOperator;
 
 import SELab2.Calculator.Abstractions.ICalculateOperator;
 

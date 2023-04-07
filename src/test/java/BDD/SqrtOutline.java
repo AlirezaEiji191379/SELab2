@@ -1,7 +1,7 @@
 package BDD;
 
 import SELab2.Calculator.Abstractions.ICalculateOperator;
-import SELab2.Calculator.SqrtCalculateOperator;
+import SELab2.Calculator.CalculatorOperator.SqrtCalculateOperator;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
